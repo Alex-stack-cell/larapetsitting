@@ -20,8 +20,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
@@ -30,9 +28,6 @@ class DatabaseSeeder extends Seeder
         // PetSitter::factory(5)->create();
         // Prestation::factory(5)->create();
         // Advertisment::factory(5)->create();
-        Comment::factory(5)->create();
-       
-        
-
+        // Comment::factory(5)->create();
     }
 }
