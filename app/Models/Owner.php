@@ -21,7 +21,7 @@ class Owner extends Model
         'email',
         'password',
         'birthdate',
-        'score'
+        'score',
     ];
 
     /**

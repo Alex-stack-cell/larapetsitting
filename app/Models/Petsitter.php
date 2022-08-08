@@ -17,7 +17,7 @@ class Petsitter extends Model
         'password',
         'birthdate',
         'score',
-        'petprefrence'
+        'petpreference'
     ];
 
     /**

@@ -10,6 +10,9 @@ class Comment extends Model
     use HasFactory;
 
     protected $fillable = [
+        'owner_id',
+        'petsitter_id',
+        'prestation_id',
         'title',
         'description',
         'createdAt',

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->dateTime('birthdate');
             $table->string('petpreference');
             $table->string('email')->unique();
-            $table->float('score',1,2);
+            // $table->float('score',1,2); // score removed as it is not relevant here
             $table->string('password',8);
             $table->rememberToken();
             $table->timestamps();

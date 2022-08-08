@@ -22,7 +22,7 @@ class PetsitterFactory extends Factory
             'firstName' => fake()->firstName(),
             'birthdate' => fake()->dateTimeBetween('-30 years', '-20 years'),
             'email' => fake()->safeEmail(),
-            'score' => fake()->randomFloat(2,0,5),
+            // 'score' => fake()->randomFloat(2,0,5), // score removed as it is not relevant here
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
             'petpreference' => 'dogs',        

@@ -10,6 +10,7 @@ class Prestation extends Model
     use HasFactory;
 
     protected $fillable = [
+        'petsitter_id',
         'dateStart',
         'dateEnd'
     ];
